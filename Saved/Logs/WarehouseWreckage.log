@@ -1363,3 +1363,365 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.09-20.42.30:394][175]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.03.09-20.44.13:085][650]LogDerivedDataCache: C:/Users/s3rg1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.073 and deleted 0 files with total size 0 MiB. Scanned 1740 files in 1730 folders with total size 38 MiB.
 [2023.03.09-20.44.43:088][739]LogSlate: Took 0.005517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.09-20.53.51:654][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.03.09-20.53.51:751][388]LogStaticMesh: Display: Building static mesh SM_Chair...
+[2023.03.09-20.53.51:753][388]LogStaticMesh: Display: Building static mesh SM_Statue...
+[2023.03.09-20.53.51:754][388]LogStaticMesh: Display: Building static mesh SM_TableRound...
+[2023.03.09-20.53.51:759][388]LogStaticMesh: Adjacency [0.00s], tris: 1782, UVs 1
+[2023.03.09-20.53.51:761][388]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Starter_Wind05...
+[2023.03.09-20.53.51:761][388]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Starter_Birds01...
+[2023.03.09-20.53.51:761][388]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Starter_Wind06...
+[2023.03.09-20.53.51:762][388]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.03.09-20.53.51:762][388]LogStaticMesh: Leaves [0.00s]
+[2023.03.09-20.53.51:768][388]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.03.09-20.53.51:768][388]Cmd: MAP LOAD FILE="D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.09-20.53.51:768][388]LightingResults: New page: Lighting Build
+[2023.03.09-20.53.51:769][388]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2023.03.09-20.53.51:771][388]LogStaticMesh: Adjacency [0.00s], tris: 4320, UVs 2
+[2023.03.09-20.53.51:784][388]LogStaticMesh: Built static mesh [0.03s] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2023.03.09-20.53.51:788][388]LogStaticMesh: Clustering [0.02s]. Ratio: 1.029412
+[2023.03.09-20.53.51:789][388]LogStaticMesh: Leaves [0.00s]
+[2023.03.09-20.53.51:831][388]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.53.51:831][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.53.51:832][388]LogContentBundle: [Container: Untitled_1] Deleting container.
+[2023.03.09-20.53.51:832][388]MapCheck: New page: Map Check
+[2023.03.09-20.53.51:832][388]LightingResults: New page: Lighting Build
+[2023.03.09-20.53.51:839][388]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.09-20.53.51:854][388]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Wind05.Starter_Wind05: 262144
+[2023.03.09-20.53.51:860][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.03.09-20.53.51:867][388]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06: 262144
+[2023.03.09-20.53.51:869][388]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Birds01.Starter_Birds01: 262144
+[2023.03.09-20.53.51:870][388]LogStaticMesh: Reduce [0.11s]
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: ================================================
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Total job queries 89, among them cache hits 4 (4.49%)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Tracking 85 distinct input hashes that result in 70 distinct outputs (82.35%)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: RAM used: 0.78 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.05%
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Shaders Compiled: 85
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Jobs assigned 85, completed 85 (100.00%)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Average time worker was idle: 5.11 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Time job spent in pending queue: average 1.05 s, longest 6.28 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Job execution time: average 3.77 s, max 8.10 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Job life time (pending + execution): average 4.82 s, max 8.11
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.09 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.70 jobs/batch
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Average processing rate: 7.67 jobs/sec
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Total thread time: 95.82 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Total thread preprocess time: 4.40 s
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Percentage time preprocessing: 4.60%
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Effective parallelization: 8.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.16 sec, max 2.16 sec, min 2.16 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.76 sec, max 1.76 sec, min 1.76 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.71 sec, max 1.71 sec, min 1.71 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.53 sec, max 2.03 sec, min 0.95 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 27.14% of total time (compiled   17 times, average 1.53 sec, max 2.03 sec, min 0.95 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.83% of total time (compiled    8 times, average 1.18 sec, max 1.34 sec, min 1.01 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.93% of total time (compiled    8 times, average 1.07 sec, max 1.30 sec, min 0.89 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.28% of total time (compiled    6 times, average 1.00 sec, max 1.14 sec, min 0.75 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.70% of total time (compiled    6 times, average 0.75 sec, max 0.94 sec, min 0.51 sec)
+[2023.03.09-20.53.51:883][388]LogShaderCompilers: Display: ================================================
+[2023.03.09-20.53.51:900][388]LogStaticMesh: Display: Waiting for static meshes to be ready 0/3 (/Game/StarterContent/Props/SM_Chair) ...
+[2023.03.09-20.53.51:917][388]LogStaticMesh: Fallback 0/1 [0.05s], num tris: 816
+[2023.03.09-20.53.51:918][388]LogStaticMesh: ConstrainClusters:
+[2023.03.09-20.53.51:918][388]LogStaticMesh:   Input: 28 Clusters, 3546 Triangles and 3486 Vertices
+[2023.03.09-20.53.51:918][388]LogStaticMesh:   Output without splits: 28 Clusters, 3546 Triangles and 3532 Vertices
+[2023.03.09-20.53.51:918][388]LogStaticMesh:   Output with splits: 28 Clusters, 3546 Triangles and 3532 Vertices
+[2023.03.09-20.53.51:918][388]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 28, Slow Path Clusters: 0, 1 Material: 28, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.03.09-20.53.51:919][388]LogStaticMesh: WritePages:
+[2023.03.09-20.53.51:919][388]LogStaticMesh:   Root: GPU size: 31740 bytes. 1 Pages. 31740.000 bytes per page (96.863% utilization).
+[2023.03.09-20.53.51:919][388]LogStaticMesh:   Streaming: GPU size: 13804 bytes. 1 Pages (1 with relative encoding). 13804.000 bytes per page (10.532% utilization).
+[2023.03.09-20.53.51:919][388]LogStaticMesh:   Page data disk size: 36096 bytes. Fixup data size: 256 bytes.
+[2023.03.09-20.53.51:919][388]LogStaticMesh:   Total GPU size: 45544 bytes, Total disk size: 36352 bytes.
+[2023.03.09-20.53.51:919][388]LogStaticMesh: Encode [0.00s]
+[2023.03.09-20.53.51:919][388]LogStaticMesh: Nanite build [0.16s]
+
+[2023.03.09-20.53.51:922][388]LogStaticMesh: Built static mesh [0.17s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2023.03.09-20.53.51:924][388]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair needed to have new flag set bUsedWithNanite !
+[2023.03.09-20.53.51:968][388]LogStaticMesh: Reduce [0.18s]
+[2023.03.09-20.53.52:014][388]MapCheck: Warning: M_Chair Material /Game/StarterContent/Props/Materials/M_Chair.M_Chair was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2023.03.09-20.53.52:034][388]LogStaticMesh: Fallback 0/1 [0.07s], num tris: 1016
+[2023.03.09-20.53.52:037][388]LogStaticMesh: ConstrainClusters:
+[2023.03.09-20.53.52:037][388]LogStaticMesh:   Input: 72 Clusters, 8980 Triangles and 10730 Vertices
+[2023.03.09-20.53.52:037][388]LogStaticMesh:   Output without splits: 72 Clusters, 8980 Triangles and 10732 Vertices
+[2023.03.09-20.53.52:037][388]LogStaticMesh:   Output with splits: 72 Clusters, 8980 Triangles and 10732 Vertices
+[2023.03.09-20.53.52:037][388]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 72, Slow Path Clusters: 0, 1 Material: 72, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.03.09-20.53.52:042][388]LogStaticMesh: WritePages:
+[2023.03.09-20.53.52:042][388]LogStaticMesh:   Root: GPU size: 32268 bytes. 1 Pages. 32268.000 bytes per page (98.474% utilization).
+[2023.03.09-20.53.52:042][388]LogStaticMesh:   Streaming: GPU size: 137472 bytes. 2 Pages (2 with relative encoding). 68736.000 bytes per page (52.441% utilization).
+[2023.03.09-20.53.52:042][388]LogStaticMesh:   Page data disk size: 126760 bytes. Fixup data size: 464 bytes.
+[2023.03.09-20.53.52:042][388]LogStaticMesh:   Total GPU size: 169740 bytes, Total disk size: 127224 bytes.
+[2023.03.09-20.53.52:042][388]LogStaticMesh: Encode [0.01s]
+[2023.03.09-20.53.52:042][388]LogStaticMesh: Nanite build [0.25s]
+
+[2023.03.09-20.53.52:047][388]LogStaticMesh: Built static mesh [0.29s] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2023.03.09-20.53.52:062][388]LogMaterial: Display: Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound needed to have new flag set bUsedWithNanite !
+[2023.03.09-20.53.52:142][388]MapCheck: Warning: M_TableRound Material /Game/StarterContent/Props/Materials/M_TableRound.M_TableRound was missing the usage flag bUsedWithNanite. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2023.03.09-20.53.52:281][388]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.53.52:282][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.53.52:294][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.09-20.53.52:302][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.09-20.53.52:313][388]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2023.03.09-20.53.52:313][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-20.53.52:314][388]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.03.09-20.53.52:323][388]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.09-20.53.52:335][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.09-20.53.52:338][388]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.09-20.53.52:338][388]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0,098ms to complete.
+[2023.03.09-20.53.52:366][388]LogFileHelpers: Loading map 'Minimal_Default' took 0.598
+[2023.03.09-20.53.57:940][545]LogSlate: Window 'Message Log' being destroyed
+[2023.03.09-20.53.57:982][545]LogSlate: Window 'Message Log' being destroyed
+[2023.03.09-20.54.03:363][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.03.09-20.54.03:701][767]LogStaticMesh: Display: Building static mesh SM_Lamp_Ceiling...
+[2023.03.09-20.54.03:701][767]LogStaticMesh: Display: Building static mesh SM_Lamp_Wall...
+[2023.03.09-20.54.03:709][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2023.03.09-20.54.03:719][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:720][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:721][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture310E58554010446A08107499F126CE3D (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:721][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:721][767]LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Fast
+[2023.03.09-20.54.03:822][767]LogStaticMesh: Display: Building static mesh Wall_400x200...
+[2023.03.09-20.54.03:822][767]LogStaticMesh: Display: Building static mesh Wall_Window_400x300...
+[2023.03.09-20.54.03:822][767]LogStaticMesh: Display: Building static mesh Wall_Door_400x300...
+[2023.03.09-20.54.03:826][767]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2023.03.09-20.54.03:826][767]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2023.03.09-20.54.03:826][767]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2023.03.09-20.54.03:828][767]LogStaticMesh: Display: Building static mesh MaterialSphere...
+[2023.03.09-20.54.03:830][767]LogStaticMesh: Display: Building static mesh SM_DoorFrame...
+[2023.03.09-20.54.03:830][767]LogStaticMesh: Display: Building static mesh SM_CornerFrame...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh SM_GlassWindow...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh SM_PillarFrame300...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh SM_PillarFrame...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh SM_WindowFrame...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh Shape_Cube...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh Shape_QuadPyramid...
+[2023.03.09-20.54.03:833][767]LogStaticMesh: Display: Building static mesh Shape_Sphere...
+[2023.03.09-20.54.03:834][767]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2023.03.09-20.54.03:837][767]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid
+[2023.03.09-20.54.03:837][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/MaterialSphere.MaterialSphere
+[2023.03.09-20.54.03:839][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2023.03.09-20.54.03:839][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.03.09-20.54.03:841][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame
+[2023.03.09-20.54.03:843][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow
+[2023.03.09-20.54.03:843][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300
+[2023.03.09-20.54.03:844][767]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame
+[2023.03.09-20.54.03:849][767]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Fire01...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Smoke01...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Fire_Sparks01...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Steam01...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Collapse01...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Collapse02...
+[2023.03.09-20.54.03:852][767]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Starter_Music01...
+[2023.03.09-20.54.03:887][767]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2023.03.09-20.54.03:887][767]Cmd: MAP LOAD FILE="D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.09-20.54.03:887][767]LightingResults: New page: Lighting Build
+[2023.03.09-20.54.03:889][767]LoadErrors: New page: Loading map: StarterMap.umap
+[2023.03.09-20.54.03:893][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Fire01.Fire01: 262144
+[2023.03.09-20.54.03:894][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Smoke01.Smoke01: 262144
+[2023.03.09-20.54.03:895][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Fire_Sparks01.Fire_Sparks01: 262144
+[2023.03.09-20.54.03:896][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Steam01.Steam01: 262144
+[2023.03.09-20.54.03:896][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01: 262144
+[2023.03.09-20.54.03:897][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: 262144
+[2023.03.09-20.54.03:898][767]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.54.03:898][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.54.03:898][767]MapCheck: New page: Map Check
+[2023.03.09-20.54.03:898][767]LightingResults: New page: Lighting Build
+[2023.03.09-20.54.03:910][767]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.09-20.54.04:275][767]LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Music01.Starter_Music01: 262144
+[2023.03.09-20.54.04:369][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.03.09-20.54.05:893][767]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.03.09-20.54.07:247][767]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049926s
+[2023.03.09-20.54.07:744][767]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.03.09-20.54.11:103][767]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks()() took too long (0.609 seconds, threshold is 0.300 s), will parallelize next time.
+[2023.03.09-20.54.11:103][767]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049941s
+[2023.03.09-20.54.14:507][767]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.005086s (3.452152s overbudget)
+[2023.03.09-20.54.14:712][767]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.54.14:712][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.54.14:726][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.09-20.54.14:732][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.09-20.54.14:776][767]LogAudio: Display: Audio Device (ID: 1) registered with world 'StarterMap'.
+[2023.03.09-20.54.14:776][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-20.54.14:776][767]LogAIModule: Creating AISystem for world StarterMap
+[2023.03.09-20.54.14:803][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.09-20.54.15:055][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.03.09-20.54.15:062][767]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.09-20.54.15:062][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,26ms to complete.
+[2023.03.09-20.54.15:062][767]LogFileHelpers: Loading map 'StarterMap' took 11.174
+[2023.03.09-20.54.15:065][767]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004118s (4.551472s overbudget)
+[2023.03.09-20.55.05:520][406]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.09-20.55.08:616][734]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap
+[2023.03.09-20.55.08:618][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-20.55.09:876][734]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.03.09-20.55.45:995][884]LogSlate: Window 'StarterMap' being destroyed
+[2023.03.09-20.55.46:009][884]LogSlate: Window 'StarterMap' being destroyed
+[2023.03.09-20.55.46:013][884]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.55.46:013][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.55.48:797][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.03.09-20.55.48:862][  5]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.03.09-20.55.48:862][  5]Cmd: MAP LOAD FILE="D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.03.09-20.55.48:862][  5]LightingResults: New page: Lighting Build
+[2023.03.09-20.55.48:862][  5]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2023.03.09-20.55.48:867][  5]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.55.48:867][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.55.48:867][  5]MapCheck: New page: Map Check
+[2023.03.09-20.55.48:867][  5]LightingResults: New page: Lighting Build
+[2023.03.09-20.55.48:889][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.09-20.55.48:896][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.03.09-20.55.48:898][  5]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-20.55.48:900][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-20.55.48:923][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.03.09-20.55.48:946][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.03.09-20.55.48:957][  5]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2023.03.09-20.55.48:957][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-20.55.48:958][  5]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.03.09-20.55.48:970][  5]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.09-20.55.48:997][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.03.09-20.55.49:002][  5]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.09-20.55.49:002][  5]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,119ms to complete.
+[2023.03.09-20.55.49:002][  5]LogFileHelpers: Loading map 'Minimal_Default' took 0.141
+[2023.03.09-20.55.52:114][264]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default
+[2023.03.09-20.55.52:115][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-20.56.17:192][558]LogSlate: Window 'Minimal_Default' being destroyed
+[2023.03.09-21.00.49:977][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.09-21.00.50:093][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.03.09-21.00.50:104][301]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.03.09-21.00.50:105][301]LogSavePackage: Moving 'D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Saved/Minimal_Default5E53E07543F1B768FDFCA69C1DFBB56E.tmp' to 'D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.03.09-21.00.50:111][301]LogFileHelpers: No new changes to save!
+[2023.03.09-21.00.50:111][301]LogFileHelpers: Saving map 'Minimal_Default' took 0.052
+[2023.03.09-21.00.50:133][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 1.39 sec)
+[2023.03.09-21.00.50:147][301]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.03.09-21.00.50:147][301]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2023.03.09-21.00.50:935][381]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.09-21.00.50:941][381]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.09-21.00.50:941][381]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2023.03.09-21.00.50:991][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.03.09-21.00.50:992][381]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (1 blueprints)
+[2023.03.09-21.00.50:992][381]PIE: New page: PIE session: Minimal_Default (9 mar. 2023 23:00:50)
+[2023.03.09-21.00.50:995][381]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.03.09-21.00.50:995][381]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.09-21.00.50:995][381]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.03.09-21.00.51:000][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003673s)
+[2023.03.09-21.00.51:000][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003726s)
+[2023.03.09-21.00.51:000][381]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-21.00.51:001][381]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.03.09-21.00.51:001][381]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2023.03.09-21.00.51:034][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.03.09-21.00.51:035][381]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.09-21.00.51:035][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.09-21.00.51:035][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.09-21.00.51:035][381]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.09-21.00.51:035][381]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.09-21.00.51:035][381]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.09-21.00.51:037][381]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.09-21.00.51:055][381]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (High Definition Audio Device)
+[2023.03.09-21.00.51:056][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.09-21.00.51:056][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.09-21.00.51:056][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.09-21.00.51:057][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.03.09-21.00.51:057][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.03.09-21.00.51:058][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.03.09-21.00.51:058][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.03.09-21.00.51:058][381]LogInit: FAudioDevice initialized.
+[2023.03.09-21.00.51:058][381]LogAudio: Display: Audio Device (ID: 2) registered with world 'Minimal_Default'.
+[2023.03.09-21.00.51:119][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-21.00.51:120][381]LogLoad: Game class is 'GameModeBase'
+[2023.03.09-21.00.51:123][381]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.03.09-22.00.51
+[2023.03.09-21.00.51:123][381]LogWorld: Bringing up level for play took: 0.003051
+[2023.03.09-21.00.51:125][381]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.03.09-21.00.51:142][381]LogBlueprintUserMessages: [Minimal_Default_C_1] Welcome to Warehouse Wreckage!
+[2023.03.09-21.00.51:143][381]PIE: Server logged in
+[2023.03.09-21.00.51:143][381]PIE: Play in editor total start time 0,203 seconds.
+[2023.03.09-21.00.51:169][381]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.09-21.00.55:268][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-21.00.55:268][634]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.03.09-21.00.55:268][634]LogSlate: Window 'WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.09-21.00.55:274][634]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-21.00.55:274][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-21.00.55:280][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.09-21.00.55:288][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-21.00.55:325][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.09-21.00.55:327][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.03.09-21.00.55:360][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.03.09-21.00.55:379][635]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.03.09-21.01.41:066][686]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.09-21.01.41:070][686]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.03.09-21.01.41:070][686]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2023.03.09-21.01.41:138][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.03.09-21.01.41:139][686]LogPlayLevel: PlayLevel: Blueprint regeneration took 69 ms (1 blueprints)
+[2023.03.09-21.01.41:139][686]PIE: New page: PIE session: Minimal_Default (9 mar. 2023 23:01:41)
+[2023.03.09-21.01.41:141][686]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.03.09-21.01.41:146][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004937s)
+[2023.03.09-21.01.41:146][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004978s)
+[2023.03.09-21.01.41:146][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.09-21.01.41:147][686]LogAIModule: Creating AISystem for world Minimal_Default
+[2023.03.09-21.01.41:147][686]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2023.03.09-21.01.41:184][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.03.09-21.01.41:185][686]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.09-21.01.41:185][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.09-21.01.41:185][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.09-21.01.41:185][686]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.09-21.01.41:185][686]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.09-21.01.41:185][686]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.09-21.01.41:188][686]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.09-21.01.41:205][686]LogAudioMixer: Display: Using Audio Hardware Device Auriculares (High Definition Audio Device)
+[2023.03.09-21.01.41:205][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.09-21.01.41:205][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.09-21.01.41:205][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.09-21.01.41:205][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.03.09-21.01.41:205][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.03.09-21.01.41:208][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.03.09-21.01.41:209][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.03.09-21.01.41:209][686]LogInit: FAudioDevice initialized.
+[2023.03.09-21.01.41:209][686]LogAudio: Display: Audio Device (ID: 3) registered with world 'Minimal_Default'.
+[2023.03.09-21.01.41:257][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-21.01.41:258][686]LogLoad: Game class is 'GameModeBase'
+[2023.03.09-21.01.41:262][686]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2023.03.09-22.01.41
+[2023.03.09-21.01.41:263][686]LogWorld: Bringing up level for play took: 0.004691
+[2023.03.09-21.01.41:265][686]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.03.09-21.01.41:266][686]LogBlueprintUserMessages: [Minimal_Default_C_2] Welcome to Warehouse Wreckage!
+[2023.03.09-21.01.41:266][686]LogBlueprintUserMessages: [Minimal_Default_C_2] Get ready to rumble!
+[2023.03.09-21.01.41:267][686]PIE: Server logged in
+[2023.03.09-21.01.41:267][686]PIE: Play in editor total start time 0,197 seconds.
+[2023.03.09-21.01.41:289][686]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.03.09-21.01.43:448][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.09-21.01.43:448][832]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2023.03.09-21.01.43:448][832]LogSlate: Window 'WarehouseWreckage Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.03.09-21.01.43:455][832]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2023.03.09-21.01.43:455][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-21.01.43:458][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.09-21.01.43:466][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.09-21.01.43:503][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.09-21.01.43:504][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.09-21.01.43:512][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.03.09-21.01.43:531][833]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.03.09-21.02.21:038][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.09-21.02.21:140][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.03.09-21.02.21:151][354]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Minimal_Default
+[2023.03.09-21.02.21:151][354]LogSavePackage: Moving 'D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Saved/Minimal_Default1AD611D4461683687AED93A7D8ED7CC2.tmp' to 'D:/Data/Programming/Projects/Unreal Engine/WarehouseWreckage/Content/StarterContent/Maps/Minimal_Default.umap'
+[2023.03.09-21.02.21:157][354]LogFileHelpers: No new changes to save!
+[2023.03.09-21.02.21:157][354]LogFileHelpers: Saving map 'Minimal_Default' took 0.056
+[2023.03.09-21.02.21:175][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 1.52 sec)
+[2023.03.09-21.02.21:185][354]AssetCheck: New page: Asset Save: Minimal_Default
+[2023.03.09-21.02.21:185][354]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
